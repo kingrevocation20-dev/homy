@@ -1,2 +1,0 @@
-# homy
-mini app 
