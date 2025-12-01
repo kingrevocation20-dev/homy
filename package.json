@@ -1,0 +1,20 @@
+{
+  "name": "homy-language",
+  "version": "0.1.0",
+  "description": "An auto-generated project for the homy programming language.",
+  "main": "src/interpreter.js",
+  "bin": {
+    "homy": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "npm run exec -- examples/example.homy",
+    "exec": "node src/cli.js",
+    "lint": "node src/linter.js examples/example.homy",
+    "test": "node tests/run-tests.js"
+  },
+  "keywords": [
+    "homy",
+    "programming language"
+  ],
+  "license": "MIT"
+}
